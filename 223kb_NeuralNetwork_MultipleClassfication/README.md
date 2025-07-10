@@ -1,6 +1,4 @@
 [한국어](./README_kor.md)
----
-
 # Neural Network Multiple Classification - Fetal Health
 
 ## Overview

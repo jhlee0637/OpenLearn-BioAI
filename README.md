@@ -19,3 +19,4 @@ Bioinformaitcs and AI practice with "public" dataset
 * https://github.com/ncl-icbam/ismb-tutorial-2023
 * https://github.com/sib-swiss/multiomics-data-analysis-and-integration-training
 * https://github.com/waldronlab/MultiAssayWorkshop
+* https://github.com/BrainOmicsCourse/BrainOmics2024

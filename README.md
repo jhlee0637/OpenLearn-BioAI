@@ -1,11 +1,26 @@
-Bioinformaitcs and AI practice with "public" dataset
+### Bionformatics is the OPEN SCIENCE.
+There are bunch of (AI related) bioinformatics resources you can find from the internet.    
+So many tools, pipelines, tutorials to study, practice, and utilize.    
+
+But to be fair, a lot of good resources has the critical probelm - data is missing.    
+The reason could be
+1) The data is too big
+2) The data is too private
+3) They just don't want to share it
+
+So here, I am gathering & *re-creating* Bioinformaitcs hands-on practices with *public* dataset which helps you to download, run, and analyze to boost your bioinformatics experience.   
+
+|Project Name|Input Size|Languages|Reference|
+|:---|:---|:---|:---|
+|Multiple Classification|223kb|Python||
+|BrainOmics2024||Python||
 
 ---
-
-### 괜찮은 콜렉션
+### Collections I'm checking
 * https://github.com/sib-swiss/training-collection
+* https://registry.opendata.aws
 
-### 아직 체크 안함
+### Maybe I will review them later
 * https://diytranscriptomics.com/
   * https://github.com/DIYtranscriptomics/DIYtranscriptomics.github.io
   * https://github.com/harrisonized/diy-transcriptomics

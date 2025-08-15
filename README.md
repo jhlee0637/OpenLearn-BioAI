@@ -1,37 +1,29 @@
+# OpenLearn-BioAI: Reproducible Bioinformatics & AI Pipeline Collection
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![Nextflow](https://img.shields.io/badge/Nextflow-22.04%2B-brightgreen.svg)](https://www.nextflow.io/)
+[![Machine Learning](https://img.shields.io/badge/ML-TensorFlow%20%7C%20PyTorch-orange.svg)](https://tensorflow.org/)
+
+## Project Overview
 ### Bionformatics is the OPEN SCIENCE.
-There are bunch of (AI related) bioinformatics resources you can find from the internet.    
-So many tools, pipelines, tutorials to study, practice, and utilize.    
+The internet is filled with bioinformatics resources - tools, pipelines, and tutorials for studying, practicing, and utilizing computational biology. But here's the **problem**: most of these valuable resources have a critical flaw - **the data is missing**.     
 
-But to be fair, a lot of good resources has the critical probelm - data is missing.    
-The reason could be
-1) The data is too big
-2) The data is too private
-3) They just don't want to share it
+Why are datasets often unavailable?
+1. **The data is too big** - Multi-terabyte genomic datasets exceed typical storage
+2. **The data is too private** - Clinical and sensitive biological information
+3. **They just don't want to share it** - Proprietary or competitive restrictions
 
-So here, I am gathering & *re-creating* Bioinformaitcs hands-on practices with *public* dataset which helps you to download, run, and analyze to boost your bioinformatics experience.   
+So here, I'm **gathering and re-creating** bioinformatics hands-on practices with **public datasets** that you can actually download, run, and analyze. This project bridges the gap between theoretical knowledge and practical implementation, boosting your real-world bioinformatics experience.
 
-|Project Name|Input Size|Languages|Reference|
-|:---|:---|:---|:---|
-|Multiple Classification|223kb|Python||
-|BrainOmics2024||Python||
+| Project Name | Data Size | Technology Stack | Status | Documentation |
+|--------------|-----------|------------------|--------|---------------|
+| **Fetal Health Multiple Classification** | 223KB | Python, TensorFlow/PyTorch | ✅ Complete | [README](./FetalNet_NNbasedMultiplceClassification/README.md) |
+| **BrainOmics2024** | Variable | Python, scikit-learn | 🚧 Active | [README](./BrainOmics2024_Day1-3/README.md) |
+| **Nextflow RNA-seq STAR Feature Count** | Variable | Nextflow, STAR, featureCounts | ✅ Complete | [README](./Nextflow_RNAseq_STAR_featureCount/README.md) |
 
----
-### Collections I'm checking
-* https://github.com/sib-swiss/training-collection
-* https://registry.opendata.aws
-
-### Maybe I will review them later
-* https://diytranscriptomics.com/
-  * https://github.com/DIYtranscriptomics/DIYtranscriptomics.github.io
-  * https://github.com/harrisonized/diy-transcriptomics
-* https://github.com/NBISweden/workshop_omics_integration (I should check more of https://github.com/NBISweden)
-* https://github.com/bmascat/rna-seq-proteomics-pipeline
-* https://github.com/Multiomics-Analytics-Group/course_protein_language_modeling
-* https://github.com/PMBio/MultiOmicsCourse
-* https://github.com/hemberg-lab/scRNA.seq.course
-* https://github.com/theislab/single-cell-best-practices
-* https://github.com/Starlitnightly/omicverse/tree/master/omicverse_guide/docs
-* https://github.com/ncl-icbam/ismb-tutorial-2023
-* https://github.com/sib-swiss/multiomics-data-analysis-and-integration-training
-* https://github.com/waldronlab/MultiAssayWorkshop
-* https://github.com/BrainOmicsCourse/BrainOmics2024
+### Goal
+- **Actually runnable**: Every workflow includes complete, accessible data
+- **End-to-end implementation**: From raw data to final analysis
+- **Production-ready code**: Professional-grade implementations
+- **Educational focus**: Designed to enhance learning and skill development

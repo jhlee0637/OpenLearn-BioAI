@@ -15,7 +15,7 @@ Based on the practical sessions of the [Brain Omics 2024 Course](https://github.
 - AnnData object optimization
 - Jupyter Notebook setup
 
-### Day 1: Basic Single-cell RNA-seq Analysis
+### [Day 1: Basic Single-cell RNA-seq Analysis](./Day1/1_DataAnalysis_execution.ipynb)
 - The entire workflow from count matrix to clusters.
 - Data filtering, normalization, and batch effect removal.
 - Cluster characterization and marker gene discovery.
